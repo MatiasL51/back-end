@@ -1,0 +1,10 @@
+// ultima version de Pip : Python -m pip install --upgrade pip
+//
+// Django: pip install django
+//
+// 
+//
+//
+//
+//
+//
