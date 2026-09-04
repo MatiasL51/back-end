@@ -38,3 +38,20 @@ Django nos permitira crear proyectos de forma rapida y ordenada
     ```
 
 luego de instalar las dependencias de Django, crearemos el motor de Django para el proyecto
+
+**Pase N°4: Creacion De La Aplicacion**
+
+una vez el motor Django esta funcionando, podemos empezar a crear nuestra aplicacion
+-  Para crear nuestra aplicación, nos ubicamos mediante el terminal en la carpeta raíz del proyecto y ejecutamos el siguiente comando:
+    ```
+    django-admin startapp nombre_aplicacion
+    ```
+
+en donde "nombre_aplicacion" debe ser reemplazado por el nombre de nuestro programa
+
+Ya creado el motor y el programa corremos el siguente comando:
+    ```
+    python manage.py runserver
+    ```
+
+que iniciara el servidor si todo esta en orden
