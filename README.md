@@ -28,3 +28,13 @@ y para cambiar de proyecto (en caso de trabajar en multiples) ingresamos en el t
     ```
 
 **Paso N°3: Creación del Núcleo de Django**
+
+Django nos permitira crear proyectos de forma rapida y ordenada
+
+- Para trabajar con Django debemos crear la estructura de directorios y la instalación de las dependencias iniciales.
+- Debemos ubicarnos en la carpeta raíz del proyecto y crearemos un nuevo proyecto Django con el siguiente comando:
+    ```
+    pip install django
+    ```
+
+luego de instalar las dependencias de Django, crearemos el motor de Django para el proyecto
