@@ -26,6 +26,10 @@ y para cambiar de proyecto (en caso de trabajar en multiples) ingresamos en el t
     
     
     deactivate
+
+y para asegurarnos de trabajar con la ultima version de pip lo descargamos con el siguente comando dentro del VENV
+
+    Python -m pip install --upgrade pip
     
 
 **Paso N°3: Creación del Núcleo de Django**
