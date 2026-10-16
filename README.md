@@ -192,10 +192,10 @@ urlpatterns = [
 
 ## 4. Endpoints y Operaciones Disponibles
 
-Una vez integrado en el archivo `urls.py` principal del proyecto (ej: `path('api/', include('gestion_escolar.urls'))`), tendrás acceso a las siguientes rutas:
+Una vez integrado en el archivo `urls.py` principal del proyecto (ej: `path('gestion_escolar/', include('gestion_escolar.urls'))`), tendrás acceso a las siguientes rutas:
 
-* **Listar y Crear (GET / POST)**: `http://localhost:8000/api/cursos/`
-* **Detalle, Actualizar y Eliminar (GET / PUT / PATCH / DELETE)**: `http://localhost:8000/api/cursos/{id}/`
+* **Listar y Crear (GET / POST)**: `http://127.0.0.1:8000/gestion_escolar/cursos/`
+* **Detalle, Actualizar y Eliminar (GET / PUT / PATCH / DELETE)**: `http://127.0.0.1:8000/gestion_escolar/cursos/{id}/`
 
 ### ¿Cómo actualizar un registro?
-Para actualizar objetos (como cambiar el nombre de un curso), debes enviar una petición `PUT` (reemplazo completo) o `PATCH` (actualización parcial) apuntando a la **ruta de detalle con el ID del recurso** (por ejemplo: `http://localhost:8000/api/cursos/1/`), ya que la ruta general de listado solo acepta `GET` y `POST`.
+Para actualizar objetos (como cambiar el nombre de un curso), debes enviar una petición `PUT` (reemplazo completo) o `PATCH` (actualización parcial) apuntando a la **ruta de detalle con el ID del recurso** (por ejemplo: `http://127.0.0.1:8000/gestion_escolar/cursos/1/`), ya que la ruta general de listado solo acepta `GET` y `POST`.
