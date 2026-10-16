@@ -1,0 +1,35 @@
+[
+    {
+        "model": "gestion_escolar.curso",
+        "pk": 1,
+        "fields": {
+            "nombre": "Primero Medio A",
+            "codigo": "CUR-101",
+            "nivel": "Educación Media",
+            "descripcion": "Curso enfocado en el plan científico-humanista básico.",
+            "activo": true
+        }
+    },
+    {
+        "model": "gestion_escolar.curso",
+        "pk": 2,
+        "fields": {
+            "nombre": "Segundo Medio B",
+            "codigo": "CUR-102",
+            "nivel": "Educación Media",
+            "descripcion": "Curso enfocado en ciencias y tecnología.",
+            "activo": true
+        }
+    },
+    {
+        "model": "gestion_escolar.curso",
+        "pk": 3,
+        "fields": {
+            "nombre": "Tercero Medio Científico",
+            "codigo": "CUR-103",
+            "nivel": "Educación Media",
+            "descripcion": "Especialización en matemáticas avanzadas y física.",
+            "activo": true
+        }
+    }
+]

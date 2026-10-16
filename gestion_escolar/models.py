@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 
 
 class Alumno(models.Model):
@@ -32,10 +33,10 @@ class Alumno(models.Model):
       help_text="Indica si el alumno se encuentra matriculado actualmente.",
   )
   fecha_registro = models.DateTimeField(
-      auto_now_add=True, verbose_name="Fecha de Registro"
+      auto_now_add=True, null=True, blank=True, verbose_name="Fecha de Registro"
   )
   ultima_actualizacion = models.DateTimeField(
-      auto_now=True, verbose_name="Última Actualización"
+      auto_now=True, null=True, blank=True ,verbose_name="Última Actualización"
   )
 
   class Meta:
@@ -74,8 +75,11 @@ class Curso(models.Model):
       help_text="Indica si el curso se encuentra impartiendo actualmente.",
   )
   fecha_creacion = models.DateTimeField(
-      auto_now_add=True, verbose_name="Fecha de Creación"
+      auto_now_add=True, null=True, blank=True, verbose_name="Fecha de Creación"
   )
+  ultima_actualizacion = models.DateTimeField(
+        auto_now=True, null=True, blank=True, verbose_name="Última Actualización"
+    )
 
   class Meta:
     verbose_name = "Curso"

@@ -1,6 +1,6 @@
 [
     {
-        "model": "tu_aplicacion.alumno",
+        "model": "gestion_escolar.alumno",
         "pk": 1,
         "fields": {
         "rut": "12.345.678-9",
@@ -17,7 +17,7 @@
         }
     },
     {
-        "model": "tu_aplicacion.alumno",
+        "model": "gestion_escolar.alumno",
         "pk": 2,
         "fields": {
         "rut": "98.765.432-1",
