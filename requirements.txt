@@ -1,10 +1,6 @@
-// ultima version de Pip : Python -m pip install --upgrade pip
-//
-// Django: pip install django
-//
-// 
-//
-//
-//
-//
-//
+Django==6.1
+djangorestframework==3.18.1
+mysqlclient==2.3.0
+python-decouple==3.8
+SQLAlchemy==2.1.1
+sqlparse==0.6.0
